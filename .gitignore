@@ -1,0 +1,16 @@
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+*.zip
+*.parquet
+
+data/raw/
+data/interim/
+
+# avoid uploading large raw CSV files
+data/**/*.csv
+wasde/*.csv
+
+# keep final output tables
+!outputs/tables/*.csv
